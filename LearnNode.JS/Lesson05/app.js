@@ -1,9 +1,7 @@
 'use strict';
 var http = require('http');
 var d = require('./document');
-
 var port = 8080;
-var query;    
 
 http.createServer(function (req, res) {
     console.log('Processing request: ' + req.url);

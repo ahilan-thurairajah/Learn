@@ -1,11 +1,13 @@
 'use strict';
 var http = require('http');
+var d = require('./document');
+
 var port = 8080;
+var query;    
 
 http.createServer(function (req, res) {
-    res.writeHead(200, { 'Content-Type': 'text/html' });
-    res.write('HTTP Server Launched');
-    res.end();
+    console.log('Processing request: ' + req.url);
+    d.ProcessRequest(req, res);
 }).listen(port);
 
 console.log('Server running on port ' + port);

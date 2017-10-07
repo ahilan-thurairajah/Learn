@@ -29,6 +29,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="document.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Content Include="Contact.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Home.html">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>

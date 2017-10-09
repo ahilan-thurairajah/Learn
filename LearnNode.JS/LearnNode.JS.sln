@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Lesson01", "Lesson01\Lesson01.njsproj", "{9C2BD2FE-7D92-4599-9863-66CEDF03F15B}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Lesson01 - HTTP Server", "Lesson01\Lesson01 - HTTP Server.njsproj", "{9C2BD2FE-7D92-4599-9863-66CEDF03F15B}"
 EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Lesson02", "Lesson02\Lesson02.njsproj", "{CDD69484-CFAC-4368-8701-CBD6B284B84C}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Lesson02 - Create Modules", "Lesson02\Lesson02 - Create Modules.njsproj", "{CDD69484-CFAC-4368-8701-CBD6B284B84C}"
 EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Lesson03", "Lesson03\Lesson03.njsproj", "{D6DD4FD1-334C-46B0-94B5-2CF71CE7B5A4}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Lesson03 - Serve HTTP File", "Lesson03\Lesson03 - Serve HTTP File.njsproj", "{D6DD4FD1-334C-46B0-94B5-2CF71CE7B5A4}"
 EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Lesson04", "Lesson04\Lesson04.njsproj", "{5E8BFA33-1014-4D6C-8116-D9AFAD43B3E6}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Lesson04 - URL Processor", "Lesson04\Lesson04 - URL Processor.njsproj", "{5E8BFA33-1014-4D6C-8116-D9AFAD43B3E6}"
 EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Lesson05", "Lesson05\Lesson05.njsproj", "{72CF9924-57FC-480A-BA47-36CC7FF29202}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Lesson05 - HTTP File Server", "Lesson05\Lesson05 - HTTP File Server.njsproj", "{72CF9924-57FC-480A-BA47-36CC7FF29202}"
 EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Lesson06", "Lesson06\Lesson06.njsproj", "{4B169B0B-CEF7-4BF1-9697-AC55A3C90E2B}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Lesson06 - Event Emit", "Lesson06\Lesson06 - Event Emit.njsproj", "{4B169B0B-CEF7-4BF1-9697-AC55A3C90E2B}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Lesson07 - File Upload", "Lesson07\Lesson07 - File Upload.njsproj", "{77D3DD76-7735-45EB-BE02-8A5FDD507686}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{4B169B0B-CEF7-4BF1-9697-AC55A3C90E2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B169B0B-CEF7-4BF1-9697-AC55A3C90E2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B169B0B-CEF7-4BF1-9697-AC55A3C90E2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77D3DD76-7735-45EB-BE02-8A5FDD507686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77D3DD76-7735-45EB-BE02-8A5FDD507686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77D3DD76-7735-45EB-BE02-8A5FDD507686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77D3DD76-7735-45EB-BE02-8A5FDD507686}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

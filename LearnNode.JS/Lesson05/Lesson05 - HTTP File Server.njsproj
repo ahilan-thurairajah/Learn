@@ -2,15 +2,16 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
-    <Name>Lesson03</Name>
-    <RootNamespace>Lesson03</RootNamespace>
+    <Name>Lesson05 - HTTP File Server</Name>
+    <RootNamespace>Lesson05</RootNamespace>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>d6dd4fd1-334c-46b0-94b5-2cf71ce7b5a4</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
+    <ProjectGuid>72cf9924-57fc-480a-ba47-36cc7ff29202</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
     <StartupFile>app.js</StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
@@ -29,6 +30,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="document.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Content Include="Contact.html">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="Home.html">
       <SubType>Code</SubType>
     </Content>

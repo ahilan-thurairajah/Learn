@@ -1,0 +1,12 @@
+{
+  "name": "lesson07",
+  "version": "0.0.0",
+  "description": "Lesson07",
+  "main": "app.js",
+  "author": {
+    "name": "Ahilan"
+  },
+  "dependencies": {
+    "formidable": "^1.1.1"
+  }
+}

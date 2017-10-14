@@ -17,6 +17,8 @@ Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Lesson06 - Event Emit", "Le
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Lesson07 - File Upload", "Lesson07\Lesson07 - File Upload.njsproj", "{77D3DD76-7735-45EB-BE02-8A5FDD507686}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Lesson08 - Email", "Lesson08 - Email\Lesson08 - Email.njsproj", "{119B74EE-E055-40BA-91C4-0CEE38221E94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{77D3DD76-7735-45EB-BE02-8A5FDD507686}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77D3DD76-7735-45EB-BE02-8A5FDD507686}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77D3DD76-7735-45EB-BE02-8A5FDD507686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{119B74EE-E055-40BA-91C4-0CEE38221E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{119B74EE-E055-40BA-91C4-0CEE38221E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{119B74EE-E055-40BA-91C4-0CEE38221E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{119B74EE-E055-40BA-91C4-0CEE38221E94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

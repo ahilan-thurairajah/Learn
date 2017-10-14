@@ -1,0 +1,12 @@
+{
+  "name": "lesson08---email",
+  "version": "0.0.0",
+  "description": "Lesson08 - Email",
+  "main": "app.js",
+  "author": {
+    "name": "Ahilan"
+  },
+  "dependencies": {
+    "nodemailer": "^4.1.3"
+  }
+}

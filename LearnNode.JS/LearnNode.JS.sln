@@ -18,6 +18,7 @@ EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Lesson07 - File Upload", "Lesson07\Lesson07 - File Upload.njsproj", "{77D3DD76-7735-45EB-BE02-8A5FDD507686}"
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Lesson08 - MySQL", "Lesson08 - MySQL\Lesson08 - MySQL.njsproj", "{714A80E7-5D95-4240-AC65-B13C51E52DF2}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Lesson08 - Email", "Lesson08 - Email\Lesson08 - Email.njsproj", "{119B74EE-E055-40BA-91C4-0CEE38221E94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +54,17 @@ Global
 		{77D3DD76-7735-45EB-BE02-8A5FDD507686}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77D3DD76-7735-45EB-BE02-8A5FDD507686}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77D3DD76-7735-45EB-BE02-8A5FDD507686}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< .mine
 		{714A80E7-5D95-4240-AC65-B13C51E52DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{714A80E7-5D95-4240-AC65-B13C51E52DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{714A80E7-5D95-4240-AC65-B13C51E52DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{714A80E7-5D95-4240-AC65-B13C51E52DF2}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{119B74EE-E055-40BA-91C4-0CEE38221E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{119B74EE-E055-40BA-91C4-0CEE38221E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{119B74EE-E055-40BA-91C4-0CEE38221E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{119B74EE-E055-40BA-91C4-0CEE38221E94}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> .theirs
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

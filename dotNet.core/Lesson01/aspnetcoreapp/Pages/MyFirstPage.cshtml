@@ -1,0 +1,13 @@
+﻿@page
+@model aspnetcoreapp.Pages.MyFirstPageModel
+@{
+    ViewData["Title"] = "MyFirstPage";
+    Layout = "_Layout.cshtml";
+}
+
+<h2>My First Page</h2>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+This is my first page...
